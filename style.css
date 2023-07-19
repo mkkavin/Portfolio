@@ -265,6 +265,16 @@ p {
 /* End Hero Section */
 
 /*Skill and Tool Section*/
+
+#skill {
+	background-image: linear-gradient(0deg, white 0%, white 100%);
+}
+
+
+#skill{
+padding:20px;
+}
+
 #skill .skill {
 	flex-direction: column;
 	max-width: 1200px;
@@ -273,13 +283,23 @@ p {
 	
 }
 
+#skill .item {
+	height: 50px;
+	width: 50px;
+	margin: 0;
+	padding:10;
+}
+
 
 #skill .skill-header h1 {
-	margin: auto;
+	margin: 0;
 	font-size: 7rem;
 	font-weight: 500;
 }
 
+#skill.tool-header{
+padding: 100px 0;
+}
 #skill .tool-header h1 {
 	margin: auto;
 	font-size: 7rem;
