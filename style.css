@@ -267,13 +267,11 @@ p {
 /*Skill and Tool Section*/
 
 #skill {
-	background-image: linear-gradient(0deg, white 0%, white 100%);
+	background-image: linear-gradient(0deg, skyblue 2%, lightgreen 80%);
 }
 
 
-#skill{
-padding:20px;
-}
+
 
 #skill .skill {
 	flex-direction: column;
@@ -282,6 +280,8 @@ padding:20px;
 	padding: 50px 0;
 	
 }
+
+
 
 #skill .item {
 	height: 50px;
@@ -388,12 +388,17 @@ padding: 100px 0;
 /* End Projects section */
 
 /* About Section */
+
+#about{
+	background-color:lightyellow;
+}
 #about .about {
 	flex-direction: column-reverse;
 	text-align: center;
 	max-width: 1200px;
 	margin: 0 auto;
 	padding: 100px 20px;
+
 }
 #about .col-left {
 	width: 250px;
